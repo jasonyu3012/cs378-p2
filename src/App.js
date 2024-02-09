@@ -81,13 +81,22 @@ const menuItems = [
 
 function App() {
   return (
-    <div>
-      <h1>Menu</h1>
-      <div className="menu">
-        {/* Display menu items dynamicaly here by iterating over the provided menuItems */}
-        <MenuItem title={menuItems[0].title} /> {/* Example for how to use a component */}
+    // Fragmentation
+    <>
+      <h1>Japanese Cafe</h1>
+      <h2>Delicious, From-Scratch Recipes Close at Hand</h2>
+      <h3>The fresh choice at UT!</h3>
+      <div>
+      {
+        menuItems.map(item => {
+          return <div className='MenuItemDiv'>
+            <MenuItem item={item}/>
+            {/* whats in curly braces is what's being passed in, left is the prop name being passed to the component. */}
+          </div>
+        })
+      }
       </div>
-    </div>
+    </>
   );
 }
 

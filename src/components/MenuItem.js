@@ -5,10 +5,20 @@ import React from 'react';
 // Modify the component to take in all the other properties of a menu item you need and display them in the component.
 // Use bootstrap to style the elements so that it looks like the mockup in the assignment.
 // Hint: You can use the image name to get the image from the images folder.
-const MenuItem = ({ title }) => {
+const MenuItem = ({ item }) => {
+// item is destructured, you would use props.item without the curly braces
     return (
-        <div>
-            <h2>{title}</h2>
+        <div className='menu-item-div'>
+            <div className='image-container'>
+                <img src={`../images/${item.imageName}`} alt="image" />
+            </div>
+            <div className='desc-div'>
+                <h1>{item.title}</h1>
+                <h4>{item.description}</h4>
+                <h4>${item.price}</h4>
+                <button>Add</button>
+            </div>
+
         </div>
     );
 };
