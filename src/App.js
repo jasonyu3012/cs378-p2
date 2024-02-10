@@ -1,4 +1,5 @@
 import './App.css';
+import { Header } from './components/Header';
 import MenuItem from './components/MenuItem';
 
 // import 'bootstrap/dist/css/bootstrap.min.css'; // This imports bootstrap css styles. You can use bootstrap or your own classes by using the className attribute in your elements.
@@ -83,9 +84,7 @@ function App() {
   return (
     // Fragmentation
     <>
-      <h1>Japanese Cafe</h1>
-      <h2>Delicious, From-Scratch Recipes Close at Hand</h2>
-      <h3>The fresh choice at UT!</h3>
+      <Header/>    
       <div>
       {
         menuItems.map(item => {
