@@ -10,7 +10,7 @@ const MenuItem = ({ item }) => {
     return (
         <div className='menu-item-div'>
             <div className='image-container'>
-                <img src={`../images/${item.imageName}`} alt="image" />
+                <img src={`/images/${item.imageName}`} alt=""/>
             </div>
             <div className='desc-div'>
                 <h1>{item.title}</h1>
