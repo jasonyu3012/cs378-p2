@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/cs378-p2/static/css/main.d64477c2.css",
-    "main.js": "/cs378-p2/static/js/main.f572569a.js",
+    "main.js": "/cs378-p2/static/js/main.7b8c236c.js",
     "static/js/787.adad572c.chunk.js": "/cs378-p2/static/js/787.adad572c.chunk.js",
+    "static/media/yakitori.png": "/cs378-p2/static/media/yakitori.4607eac7ee100bb3b73d.png",
+    "static/media/ramen.png": "/cs378-p2/static/media/ramen.125c98f7dc9998577310.png",
+    "static/media/gyoza.png": "/cs378-p2/static/media/gyoza.27ccd034e1aadd76ec20.png",
+    "static/media/okonomiyaki.png": "/cs378-p2/static/media/okonomiyaki.61f5abaaaedea8ef71bc.png",
+    "static/media/sushi.png": "/cs378-p2/static/media/sushi.6b2c6929c74fcbfe583c.png",
+    "static/media/takoyaki.png": "/cs378-p2/static/media/takoyaki.b8ba12c540a8ddf4b386.png",
+    "static/media/katsu-curry.png": "/cs378-p2/static/media/katsu-curry.8edd2b9ebc67b8b87277.png",
+    "static/media/sashimi.png": "/cs378-p2/static/media/sashimi.b18e1a3471f74c5ecc39.png",
+    "static/media/matcha-cake.png": "/cs378-p2/static/media/matcha-cake.ba045126fc0dea8ccda8.png",
+    "static/media/mochi.png": "/cs378-p2/static/media/mochi.5c335d682a9d8e1890f2.png",
     "index.html": "/cs378-p2/index.html",
     "main.d64477c2.css.map": "/cs378-p2/static/css/main.d64477c2.css.map",
-    "main.f572569a.js.map": "/cs378-p2/static/js/main.f572569a.js.map",
+    "main.7b8c236c.js.map": "/cs378-p2/static/js/main.7b8c236c.js.map",
     "787.adad572c.chunk.js.map": "/cs378-p2/static/js/787.adad572c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d64477c2.css",
-    "static/js/main.f572569a.js"
+    "static/js/main.7b8c236c.js"
   ]
 }
